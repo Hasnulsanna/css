@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Sign in to github</title>
+</head>
+<div class="main">
+	<img class="logo" src="/home/exam1/Desktop/HASNUL SANNA_S1MCA/css/logo.png" alt="">
+        <h1>Sign in to GitHub</h1>
+    <div class="form">
+    <form action="">
+    	<div class="username">
+        	<label for="username">Username or email address</label>
+            <input type="text">
+        <div class="password">
+        	<label for="password">Password</label>
+            <input type="password">
+            <a href="">
+            	Forgot password?
+            </a>
+        </div>
+        <input type="submit" value="Sign in">
+        </form>
+    </div>  
+    <div class="newtogit">
+    	New to GitHub?
+        <a href="">Create an account.</a>
+     </div>
+</div>
+    
+    
+<style>
+body{
+	font-family:Arial;
+    	font-size:14px;
+}
+.logo{
+	width:60px;
+        }
+.main{
+	height:100vh;
+	width:100vw;
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+
+}
+
+
+
+
+ </style>      
+
